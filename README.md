@@ -1,2 +1,2 @@
 # iphone-store
- one product landing page
+ one prodact landing page | Coded by Vika Kelii
