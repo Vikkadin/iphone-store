@@ -391,11 +391,6 @@ ul {
     .new-text p {
         font-size: 130%;
     }
-
-    .new-text p,
-    .new-text b {
-        width: 100%;
-    }
 }
 
 
