@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -315,15 +321,15 @@ ul {
     }
 
     .btn-line:nth-child(1) {
-        top: 0px;
+        top: 20px;
     }
 
     .btn-line:nth-child(2) {
-        top: 20px;
+        top: 30px;
     }
 
     .btn-line:nth-child(3) {
-        top: 20px;
+        top: 30px;
     }
 
     .btn-line:nth-child(4) {
@@ -356,7 +362,7 @@ ul {
 
     .menu-item {
         padding: 50px 0;
-        font-size: 54px;
+        font-size: 32px;
     }
 
     .menu-active .btn-line:nth-child(1) {
@@ -382,14 +388,6 @@ ul {
 
     .new-img {
         display: none;
-    }
-
-    .new-text {
-        margin: 0 auto;
-    }
-
-    .new-text p {
-        font-size: 130%;
     }
 }
 
@@ -417,10 +415,6 @@ ul {
 }
 
 @media (max-width: 560px) {
-    .hero-title {
-        font-size: 34px;
-        line-height: 42px;
-    }
 
     .hero-btn {
         font-size: 18px;
@@ -463,6 +457,11 @@ ul {
 
     .mobile-phone {
         display: block;
+    }
+
+    .order-title {
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 
